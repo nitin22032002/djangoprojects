@@ -1,2 +1,2 @@
-##Django Projects
+# Django Project
 ## it is for practice django
