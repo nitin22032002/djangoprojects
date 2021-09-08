@@ -1,0 +1,5 @@
+db.sqlite3
+manage.py
+/ProductManagement/wsgi.py
+/ProductManagement/settings.py
+/ProductManagement/asgi.py

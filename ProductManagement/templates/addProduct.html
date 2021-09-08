@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Product</title>
+</head>
+<body>
+    <center>
+        <form action="/product/getbill">
+        <table border="1" cellspacing="0" cellpadding="10">
+            <caption><h2>Add Product</h2></caption>
+            <tr>
+                <th>
+                    Product Id
+                </th>
+                <td>
+                    <input required  type="text" name="id" placeholder="Product Id">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Product Name
+                </th>
+                <td>
+                    <input required  type="text" name="name" placeholder="Product Name">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Type
+                </th>
+                <td>
+                   <select name="type">
+                       <option selected disabled>--Select--</option>
+                       <option> Stationary</option>
+                       <option>Cosmtics</option>
+                       <option>Clothes</option>
+                       <option>Food</option>
+                       <option>Electronics</option>
+                       <option>Other</option>
+                   </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Product Rate
+                </th>
+                <td>
+                    <input required  type="number" name="rate" placeholder="Product Rate">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Product Quantity
+                </th>
+                <td>
+                    <input required  type="number" name="qty" placeholder="Product Quantity">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    GST
+                </th>
+                <td>
+                   <select name="gst">
+                       <option selected disabled>--Select--</option>
+                       <option value="5">5%</option>
+                       <option value="12">12%</option>
+                       <option value="18">18%</option>
+                       <option value="24">24%</option>
+                   </select>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" align="center"><input required  type="submit" value="Get Bill"></th>
+            </tr>
+        </table>
+            </form>
+    </center>
+</body>
+</html>

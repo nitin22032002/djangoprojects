@@ -1,0 +1,5 @@
+db.sqlite3
+manage.py
+./marksheet/wsgi.py
+./marksheet/settings.py
+./marksheet/asgi.py

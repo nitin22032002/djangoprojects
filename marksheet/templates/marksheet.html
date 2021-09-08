@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Record</title>
+</head>
+<body>
+    <center>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <caption><h2>Student Record</h2></caption>
+            <tr>
+                <th>Name</th>
+                <td>{{ prefix }} {{ sname }}</td>
+            </tr>
+
+            <tr>
+                <th>{{ fprefix }}</th>
+                <td>{{ fname }}</td>
+            </tr>
+            <tr>
+                <th>School</th>
+                <td>{{ school }}</td>
+            </tr>
+
+        </table>
+            <hr>
+    <table border="1" cellspacing="0" cellpadding="5">
+            <caption><h2>Marks Record</h2></caption>
+            <tr>
+                <th>Maths</th>
+                <td>{{ maths }}</td>
+            </tr>
+
+            <tr>
+                <th>Physics</th>
+                <td>{{ physics }}</td>
+            </tr>
+            <tr>
+                <th>Chemistry</th>
+                <td>{{ chemistry }}</td>
+            </tr>
+            <tr>
+                <th>Hindi</th>
+                <td>{{ hindi }}</td>
+            </tr>
+            <tr>
+                <th>English</th>
+                <td>{{ english }}</td>
+            </tr>
+
+        <tr>
+                <th>Total Marks</th>
+                <td>500</td>
+            </tr>
+        <tr>
+        <tr>
+                <th>Marks Obtain</th>
+                <td>{{ marks }}</td>
+            </tr>
+        <tr>
+                <th>Percentage</th>
+                <td>{{ percentage }} %</td>
+            </tr>
+        <tr>
+                <th>Grade</th>
+                <td>{{ grade }}</td>
+            </tr>
+
+        </table>
+
+
+    </center>
+
+</body>
+</html>

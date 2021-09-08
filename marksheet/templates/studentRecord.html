@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Record</title>
+</head>
+<body>
+    <center>
+        <form action="/student/marksheet">
+        <table border="1" cellspacing="0" cellpadding="5">
+            <caption><h2>Student Record</h2></caption>
+            <tr>
+                <th>Name</th>
+                <td><input type="text" required name="sname"></td>
+            </tr>
+
+            <tr>
+                <th>Father Name</th>
+                <td><input type="text" required name="fname"></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <select name="gender">
+                        <option selected disabled>--Select--</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>School</th>
+                <td><input type="text" required name="scname"></td>
+            </tr>
+
+        </table>
+            <hr>
+    <table border="1" cellspacing="0" cellpadding="5">
+            <caption><h2>Marks Record</h2></caption>
+            <tr>
+                <th>Maths</th>
+                <td><input type="text" required name="maths"></td>
+            </tr>
+
+            <tr>
+                <th>Physics</th>
+                <td><input type="text" required name="physics"></td>
+            </tr>
+            <tr>
+                <th>Chemistry</th>
+                <td><input type="text" required name="chemistry"></td>
+            </tr>
+            <tr>
+                <th>Hindi</th>
+                <td><input type="text" required name="hindi"></td>
+            </tr>
+            <tr>
+                <th>English</th>
+                <td><input type="text" required name="english"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Show Marksheet"></td>
+                <td><input type="reset" value="Reset Details"></td>
+
+            </tr>
+
+        </table>
+        </form>
+
+    </center>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+</head>
+<body>
+    <center>
+        <table border="1" cellspacing="0" cellpadding="10">
+            <caption><h1>ABC Company</h1></caption>
+            <tr>
+                <th>
+                    Product Id
+                </th><th>
+                    Product Name
+                </th><th>
+                    Product Type
+                </th><th>
+                    Product Rate
+                </th><th>
+                    Product Quantity
+                </th><th>
+                    Product Amount
+                </th>
+
+            </tr>
+            <tr>
+                <td>
+                    {{ id }}
+                </td>
+                <td>
+                    {{ name }}
+                </td>
+                <td>
+                    {{ type }}
+                </td>
+                <td>
+                    {{ rate }}
+                </td>
+                <td>
+                    {{ qty }}
+                </td>
+                <td>
+                    {{ amt }}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+                <th>Gst[{{ gst }}%]</th>
+                <td>{{ gstamt }}</td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+                <th>Net Amount</th>
+                <td>{{ netamt }}</td>
+            </tr>
+            <tr>
+                <th colspan="6" align="center">Thankyou For Shoping With Us</th>
+            </tr>
+            <tr>
+                <td colspan="6"><a href="/product/addproduct">Back</a></td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
